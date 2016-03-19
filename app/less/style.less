@@ -1,0 +1,108 @@
+@import "_bs-index.less";
+
+// Let's prevent that flash of unstyled/unbound content
+[ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+  display: none !important;
+}
+body {
+	background-color: @color-gray-light;
+}
+.main-container {
+	position: relative;
+}
+.mast-nav {
+	color: #fff;
+	font-size: 1.5em;
+	line-height: @mast-height;
+	a {
+		color: #fff;
+		display: inline-block;
+		height: @mast-height;
+		line-height: @mast-height;
+		text-decoration: none;
+	}
+	.masthead-styling();
+	.workspace-trigger {
+		.masthead-styling(@color-blue-dark);
+		float: left;
+		width: @workspace-width;
+		a {
+			color: @color-gray-light;
+			display: block;
+			.icon-hamburger {
+				color: #fff;
+				margin: 0 10px 0 20px;
+				top: 4px;
+			}
+		}
+	}
+	.global-nav {
+		float: left;
+		height: @mast-height;
+		width: auto;
+		.logo-link {
+			float: left;
+			margin: 0 20px;
+			img {
+				margin: 10px;
+			}
+		}
+		.global-nav-links {
+			display: inline-block;
+			margin: 0;
+			padding: 0;
+			list-style: none;
+			li {
+				display: inline-block;
+				margin: 0;
+				padding: 0 10px;
+				a {
+					color: @color-blue-darkest;
+					padding: 0 20px;
+				}
+			}
+		}
+	}
+}
+.main-content {
+	background-color: #fff;
+	border: 1px solid @color-gray;
+	margin: 20px;
+	min-height: @workspace-width;
+}
+.workspace-aside {
+	background-color: @color-gray-lighter;
+	box-shadow: inset -1px -1px 0 @color-gray;
+	min-height: 500px;
+	left: -@workspace-width;
+	position: absolute;
+	top: 0;
+	width: @workspace-width;
+	z-index: 5;
+	.aside-transition();
+	.workspace-search{
+		.masthead-styling(@color-blue-dark);
+	}
+	&.visible {
+		left: 0;
+		.aside-transition()
+	}
+}
+
+// Icons
+.icon-hamburger {
+	.glyphicon();
+	.glyphicon-menu-hamburger();
+}
+.icon-user {
+	.glyphicon();
+	.glyphicon-user();	
+}
+.icon-calendar {
+	.glyphicon();
+	.glyphicon-calendar();	
+}
+.icon-tasks {
+	.glyphicon();
+	.glyphicon-check();	
+}

@@ -1,0 +1,35 @@
+{
+  "name": "front-end-puzzle",
+  "version": "1.0.0",
+  "description": "Challenge provided by Citrix for skill assessment",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cmchase/front-end-puzzle.git"
+  },
+  "author": "Cory Chase",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cmchase/front-end-puzzle/issues"
+  },
+  "homepage": "https://github.com/cmchase/front-end-puzzle#readme",
+  "devDependencies": {
+    "bootstrap-less": "^3.3.8",
+    "browserify": "^13.0.0",
+    "gulp": "^3.9.1",
+    "gulp-connect": "^3.1.1",
+    "gulp-less": "^3.0.5",
+    "gulp-run-sequence": "^0.3.2",
+    "gulp-uglify": "^1.5.3",
+    "jquery": "^2.2.2",
+    "run-sequence": "^1.1.5",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0"
+  },
+  "dependencies": {
+    "angular": "^1.5.2"
+  }
+}
