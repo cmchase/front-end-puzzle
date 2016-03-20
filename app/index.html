@@ -2,14 +2,14 @@
 <html lang="en" data-ng-app="app">
 <head>
     <meta charset="UTF-8">
-    <title>My App</title>
+    <title>Workspaces: Cory Chase</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon-16x16.png">
 </head>
 <body data-ng-controller="AppController" ng-cloak>
 	<main class="main-container" role="main">
 	    <nav class="mast-nav">
-	    	<div class="workspace-trigger">
+	    	<div id="workspaceTrigger" class="workspace-trigger">
 	    		<a href="#" class="choose-workspace">
 	    			<span class="icon-hamburger"></span>Choose a workspace
 	    		</a>
@@ -36,8 +36,14 @@
 	    	</div>
 	    </nav>
 	    <section class="main-content"></section>
-    	<aside class="workspace-aside">
-    		<div class="workspace-search"></div>
+    	<aside class="workspace-aside visible">
+    		<div class="workspace-search">
+    			<span id="iconSearch" data-ng-hide="filterText" data-ng-click="triggerSearch()" class="icon-search"></span>
+    			<span id="iconClear" data-ng-show="filterText" data-ng-click="clearSearch()" class="icon-clear"></span>
+    			<input type="text" id="filterText" class="filter-text" data-ng-model="filterText" tabindex="100">
+    		</div>
+    		<div class="workspace-results" data-ng-workspaces>
+    		</div>
     	</aside>
 	</main>
 

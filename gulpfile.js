@@ -8,6 +8,7 @@ var buffer = require('vinyl-buffer');
 var less = require('gulp-less');
 var source = require('vinyl-source-stream');
 var uglify = require('gulp-uglify');
+var minifyCSS = require('gulp-minify-css');
 var runSequence = require('run-sequence');
 
 // Constants
@@ -19,6 +20,7 @@ var config = {
 	    mainJs: './app/js/main.js',
 	    less: './app/less/*.less',
 	    style: './app/less/style.less',
+	    assets: './app/assets/**/*',
 	    dist: {
 			root: './dist/',
 	      	js: './dist/js/',
@@ -40,13 +42,14 @@ gulp.task('compile-js', function() {
 		.on('error', console.error.bind(console))
 		.pipe(source('bundle.js'))
 		.pipe(buffer())
-		.pipe(uglify())
+		.pipe(uglify({mangle: false}))
 		.pipe(gulp.dest(config.paths.dist.js))
 });
 
 gulp.task('compile-less', function () {
   return gulp.src(config.paths.style)
     .pipe(less({}))
+    .pipe(minifyCSS())
     .pipe(gulp.dest(config.paths.dist.css));
 });
 
@@ -65,6 +68,7 @@ gulp.task('watch', function(){
 	gulp.watch(config.paths.js, ['compile-js']);
 	gulp.watch(config.paths.less, ['compile-less']);
     gulp.watch(config.paths.index, ['copy-index']);
+    gulp.watch(config.paths.assets, ['copy-assets']);
 })
 
 gulp.task('default', ['connect','watch']);
