@@ -1,5 +1,4 @@
 @import "_bs-index.less";
-
 // Let's prevent that flash of unstyled/unbound content
 [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
   display: none !important;
@@ -74,12 +73,10 @@ body {
 	background-color: #fff;
 	border: 1px solid @color-gray;
 	margin: 20px;
-	min-height: @workspace-width;
 }
 .workspace-aside {
 	background-color: @color-gray-lighter;
 	box-shadow: inset -1px -1px 0 @color-gray;
-	min-height: 500px;
 	left: -@workspace-width;
 	position: absolute;
 	top: 0;
@@ -112,6 +109,9 @@ body {
 	&.visible {
 		left: 0;
 		.aside-transition()
+	}
+	.workspace-results {
+		overflow-y: auto;
 	}
 	.workspace-org {
 		@imgsize: 50px;

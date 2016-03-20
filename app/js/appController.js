@@ -1,6 +1,7 @@
 var $ = jQuery = require('jQuery');
 
 module.exports = function($scope, AppService) {
+	// TODO: Do not publish with duplicated data. use getData()
     AppService.getDuplicatedData().$promise.then(function(data){
     	$scope.orgs = data;
     });
@@ -27,7 +28,7 @@ module.exports = function($scope, AppService) {
 		'down': 40
 	};
 
-	$('.workspace-aside').on('keyup', function(event){
+	$('.workspace-aside').on('keydown', function(event){
 		switch(event.keyCode) {
     		case $scope.keyCodes.esc:
     			$scope.filterText = "";
@@ -49,7 +50,41 @@ module.exports = function($scope, AppService) {
 	$('#workspaceTrigger').on('click', function togglePanel(event) {
 		$scope.triggerSearch();
 	});
+
 	$('.workspace-aside').on('click', function clickAside(event) {
 		event.stopPropagation();
 	});
+
+	$scope.sizeAside = function(){
+		$('.workspace-results').css('max-height', $(window).height() * .8);
+	}
+	
+	// https://davidwalsh.name/javascript-debounce-function
+	$scope.debounce = function(func, wait, immediate) {
+		var timeout;
+		return function() {
+			var context = this, args = arguments;
+			var later = function() {
+				timeout = null;
+				if (!immediate) func.apply(context, args);
+			};
+			var callNow = immediate && !timeout;
+			clearTimeout(timeout);
+			timeout = setTimeout(later, wait);
+			if (callNow) func.apply(context, args);
+		};
+	};
+
+	$scope.resizeCallback = $scope.debounce(function(){
+		$scope.sizeAside();
+	}, 250);
+
+	// Let's make sure the Workspace Aside nav area
+	// fits the window nicely on first load.
+	$scope.sizeAside();
+	// We don't really have any content, but it drives
+	// me crazy to see so much of the background.
+	$('.main-content').height($(window).height() - 100);
+
+	window.addEventListener('resize', $scope.resizeCallback)
 };
