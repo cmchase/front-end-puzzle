@@ -67,7 +67,7 @@ gulp.task('copy-assets', function() {
 gulp.task('watch', function(){
 	gulp.watch(config.paths.js, ['compile-js']);
 	gulp.watch(config.paths.less, ['compile-less']);
-    gulp.watch(config.paths.index, ['copy-index']);
+	gulp.watch(config.paths.index, ['copy-index']);
     gulp.watch(config.paths.assets, ['copy-assets']);
 })
 

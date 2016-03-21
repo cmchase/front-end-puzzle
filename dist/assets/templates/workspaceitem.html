@@ -1,3 +1,4 @@
-<a href="{{ws.url}}" tabindex="100">
-	<span class="icon"></span>{{ws.name}}
+<a href="{{ws.url}}" class="workspace-link" tabindex="100">
+	<span class="icon"></span>
+	<span class="workspace-name" data-ng-bind-html="ws.name | highlight:filterText"></span>
 </a>

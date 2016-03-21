@@ -64,15 +64,47 @@ body {
 				a {
 					color: @color-blue-darkest;
 					padding: 0 20px;
+					&:hover {
+						color: @color-gray-light;
+					}
 				}
 			}
-		}
+		}		
 	}
 }
 .main-content {
 	background-color: #fff;
 	border: 1px solid @color-gray;
 	margin: 20px;
+	.notes {
+		margin-left: @workspace-width;
+		padding: 10px 10px 100px;
+		position: relative;
+		width: 600px;		
+		h3:not(:first-child) {
+			margin-top: 50px;
+		}
+		p {
+			margin-bottom: 20px;
+		}
+		button.dummy-data {
+			background: @color-blue;
+			color: #fff;
+			position: absolute;
+			top: 25px;
+			right: 0;
+			font-size: 15px;
+			border-radius: 4px;
+			line-height: 30px;
+			border: 1px solid @color-blue-darkest;
+			&:hover {
+				background: @color-blue-darkest;
+			}
+			&:focus {
+				outline: none;
+			}
+		}
+	}
 }
 .workspace-aside {
 	background-color: @color-gray-lighter;
@@ -83,6 +115,10 @@ body {
 	width: @workspace-width;
 	z-index: 5;
 	.aside-transition();
+	.highlighted {
+		background-color: yellow;
+		font-style: italic;
+	}
 	.workspace-search{
 		.masthead-styling(@color-blue-dark);
 		color: #fff;
@@ -112,6 +148,26 @@ body {
 	}
 	.workspace-results {
 		overflow-y: auto;
+		position: relative;
+		min-height: 300px;
+		.no-orgs {
+			background: url('../assets/img/frown.png') center no-repeat;
+			bottom: 0;
+			left: 0; 
+			position: absolute;
+			right: 0; 
+			top: 0;
+			.message {
+				color: darken(@color-gray, 10%);
+				font-size: 1.25em;
+				font-weight: 600;
+				position: absolute;
+				bottom: 10px;
+				left: 0;
+				right: 0;
+				text-align: center;
+			}
+		}
 	}
 	.workspace-org {
 		@imgsize: 50px;
@@ -119,6 +175,10 @@ body {
 		padding: 0 0 15px @imgsize * 1.5;
 		border-bottom: 1px solid #fff;
 		box-shadow: inset 0 -1px 0 @color-gray;
+		&.last-org {
+			border-bottom: none;
+			box-shadow: none;
+		}
 		.org-info {
 			display: block;
 			position: relative;
@@ -142,7 +202,7 @@ body {
 			padding: 0;
 			list-style: none;
 			.workspace-item {
-				font-weight: 600;
+				font-weight: 500;
 				margin: 0;
 				position: relative;
 				a {
@@ -156,7 +216,7 @@ body {
 						.glyphicon-new-window();
 						color: @color-gray;
 						position: absolute;
-						top: 10px;
+						top: 12px;
 						left: -30px;
 					}
 					&:hover, &:focus {

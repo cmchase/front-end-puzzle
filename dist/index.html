@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title>Workspaces: Cory Chase</title>
     <link rel="stylesheet" href="css/style.css">
-    <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon-16x16.png">
 </head>
 <body data-ng-controller="AppController" ng-cloak>
 	<main class="main-container" role="main">
@@ -15,7 +15,7 @@
 	    		</a>
 	    	</div>
 	    	<div class="global-nav">
-	    		<a href="#" class="logo-link"><img src="/assets/img/citrix-mast-logo.png" /></a>
+	    		<a href="#" class="logo-link"><img src="assets/img/citrix-mast-logo.png" /></a>
 	    		<ul class="global-nav-links">
 		    		<li>
 		    			<a href="#" class="icon-link">
@@ -35,12 +35,32 @@
 	    		</ul>
 	    	</div>
 	    </nav>
-	    <section class="main-content"></section>
-    	<aside class="workspace-aside">
+	    <section class="main-content">
+	    	<div class="notes">
+		    	<h3>Some Notes:</h3>
+		    	<p>The <a href="https://gist.github.com/RSpace/bba1b5067f79c6778cff" target="_blank">dummy data provided</a> wasn't long enough to test some of the requirements, so I duplicated it a few times. You can toggle more/less with the button above.</p>
+
+		    	<p>The requirements didn't include details for dismissing the overlay, how to handle keyboard navigation when at the top/bottom of the workspace list, or empty data states, so I used my best judgement for an intuitive experience.</p>
+
+		    	<p>The requirements also didn't specifiy element sizes, typography or iconography, so I used some guesswork and didn't sweat those details.</p>
+
+		    	<h3>Resources for Review:</h3>
+		    	<ul>
+		    		<li><a href="https://github.com/cmchase/front-end-puzzle" target="_blank">GitHub Repository</a></li>
+		    		<li><a href="http://corychase.com/citrix/" target="_blank">Online Demo</a></li>
+		    		<li><a href="https://trello.com/b/JC6Nv2Iq" target="_blank">Trello: Kanban Project Board</a>
+		    	</ul>
+		    	<h3>Thanks!</h3>
+		    	<p>Cory Chase: cmchase@gmail.com</p>
+		    	<button class="dummy-data" data-ng-click="getDuplicatedData();" data-ng-hide="hasMoreData">More Dummy Data</button>
+		    	<button class="dummy-data" data-ng-click="getData();" data-ng-show="hasMoreData">Less Dummy Data</button>
+	    	</div>
+	    </section>
+    	<aside class="workspace-aside" data-ng-keydown="workspaceKeyNav($event)">
     		<div class="workspace-search">
     			<span id="iconSearch" data-ng-hide="filterText" data-ng-click="triggerSearch()" class="icon-search"></span>
     			<span id="iconClear" data-ng-show="filterText" data-ng-click="clearSearch()" class="icon-clear"></span>
-    			<input type="text" id="filterText" class="filter-text" data-ng-model="filterText" tabindex="100">
+    			<input type="text" id="filterText" class="filter-text" data-ng-model="filterText" tabindex="1000">
     		</div>
     		<div class="workspace-results" data-ng-workspaces>
     		</div>

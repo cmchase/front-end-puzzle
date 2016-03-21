@@ -1,8 +1,7 @@
 <div class="workspace-org" ng-show="filteredList.length > 0">
 	<div class="org-info" data-org-id="{{org.org_id}}">
 		<img class="org-logo" ng-src="{{ org.image.thumbnail_link }}" />
-		<span class="org-name">
-			{{org.name}}
+		<span class="org-name" data-ng-bind-html="org.name | highlight:filterText">
 		</span>
 	</div>
 	<ul class="org-workspaces">
