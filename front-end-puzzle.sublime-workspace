@@ -4,6 +4,154 @@
 		"selected_items":
 		[
 			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"margin-",
+				"margin-bottom"
+			],
+			[
+				"min-",
+				"min-height"
+			],
+			[
+				"sc",
+				"scroll"
+			],
+			[
+				"color-gr",
+				"color-gray"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"i",
+				"italic"
+			],
+			[
+				"font-",
+				"font-style"
+			],
+			[
+				"color-b",
+				"color-blue"
+			],
+			[
+				"color-g",
+				"color-gray"
+			],
+			[
+				"color-bl",
+				"color-blue-darkest"
+			],
+			[
+				"color-gray-li",
+				"color-gray-light"
+			],
+			[
+				"key",
+				"keyCodes"
+			],
+			[
+				"find",
+				"findNextTabIndex"
+			],
+			[
+				"for",
+				"forEach"
+			],
+			[
+				"filter",
+				"filterText"
+			],
+			[
+				"max-",
+				"max-height"
+			],
+			[
+				"t",
+				"tabindex"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"gly",
+				"glyphicon"
+			],
+			[
+				"w",
+				"workspace-aside"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"works",
+				"WorkspaceItem"
+			],
+			[
+				"or",
+				"Organization"
+			],
+			[
+				"Work",
+				"WorkspaceItem"
+			],
+			[
+				"con",
+				"console"
+			],
+			[
+				"s",
+				"scope"
+			],
+			[
+				"ngWork",
+				"ngWorkspaceItem"
+			],
+			[
+				"org",
+				"org_id"
+			],
+			[
+				"Wro",
+				"workspaces"
+			],
+			[
+				"AppD",
+				"appDirectives"
+			],
+			[
+				"app",
+				"AppDirectives"
+			],
+			[
+				"Ap",
+				"AppDirectives"
+			],
+			[
+				"color-gra",
+				"color-gray-light"
+			],
+			[
+				"bor",
+				"border-right"
+			],
+			[
+				"re",
+				"relative"
+			],
+			[
+				"com",
+				"compile-js"
+			],
+			[
 				"color-gold",
 				"color-gold-light"
 			],
@@ -16,20 +164,8 @@
 				"padding-bottom"
 			],
 			[
-				"mar",
-				"margin-left"
-			],
-			[
-				"margin",
-				"margin-top"
-			],
-			[
 				"acti",
 				"activity-date"
-			],
-			[
-				"color-gr",
-				"color-green-base"
 			],
 			[
 				"make-md-col",
@@ -38,10 +174,6 @@
 			[
 				"make-",
 				"make-md-column-offset"
-			],
-			[
-				"text",
-				"text-decoration"
 			],
 			[
 				"ac",
@@ -68,20 +200,12 @@
 				"GapiClient"
 			],
 			[
-				"re",
-				"ready"
-			],
-			[
 				"run",
 				"runSequence"
 			],
 			[
 				"im",
 				"img"
-			],
-			[
-				"con",
-				"config"
 			],
 			[
 				"Event",
@@ -128,10 +252,6 @@
 				"padding"
 			],
 			[
-				"color-g",
-				"color-gray-light"
-			],
-			[
 				"fon",
 				"font-style"
 			],
@@ -172,16 +292,8 @@
 				"form-control"
 			],
 			[
-				"color-b",
-				"color-blue-base"
-			],
-			[
 				"activi",
 				"activity-more"
-			],
-			[
-				"gly",
-				"glyphicon-plus"
 			],
 			[
 				"activity",
@@ -192,20 +304,12 @@
 				"article	Tag"
 			],
 			[
-				"font-",
-				"font-weight"
-			],
-			[
 				"img",
 				"img-wrapper"
 			],
 			[
 				"padd-",
 				"padding-left"
-			],
-			[
-				"margin-",
-				"margin-left"
 			],
 			[
 				"min",
@@ -218,10 +322,6 @@
 			[
 				"fo",
 				"for	for …"
-			],
-			[
-				"for",
-				"foreach	foreach …"
 			],
 			[
 				"border-top",
@@ -258,10 +358,6 @@
 			[
 				"color-red",
 				"color-red-base"
-			],
-			[
-				"color-gra",
-				"color-gray-base"
 			],
 			[
 				"clear",
@@ -332,16 +428,8 @@
 				"color-grey-lighter"
 			],
 			[
-				"max-",
-				"max-width"
-			],
-			[
 				"gray-lig",
 				"gray-lighter"
-			],
-			[
-				"color-bl",
-				"color-blue-base"
 			],
 			[
 				"color-blue-l",
@@ -366,14 +454,6 @@
 			[
 				"g",
 				"gulp"
-			],
-			[
-				"w",
-				"wp-content"
-			],
-			[
-				"t",
-				"themes"
 			],
 			[
 				"h",
@@ -434,79 +514,67 @@
 			[
 				"in",
 				"init"
-			],
-			[
-				"pop",
-				"popUp"
-			],
-			[
-				"boxo",
-				"box-decoration-break"
-			],
-			[
-				"ob",
-				"obj1"
-			],
-			[
-				"o",
-				"obj1"
-			],
-			[
-				"time",
-				"timestamp"
-			],
-			[
-				"soc",
-				"socket"
-			],
-			[
-				"socke",
-				"socketio"
-			],
-			[
-				"fn",
-				"function"
-			],
-			[
-				"ex",
-				"exists"
-			],
-			[
-				"exists",
-				"existsSync"
-			],
-			[
-				"st",
-				"stderr"
-			],
-			[
-				"pro",
-				"process"
-			],
-			[
-				"pr",
-				"process"
-			],
-			[
-				"req",
-				"requrest"
-			],
-			[
-				"se",
-				"setType"
-			],
-			[
-				"fun",
-				"function"
-			],
-			[
-				"m",
-				"mySvc"
 			]
 		]
 	},
 	"buffers":
 	[
+		{
+			"file": "app/less/style.less",
+			"settings":
+			{
+				"buffer_size": 4715,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "README.md",
+			"settings":
+			{
+				"buffer_size": 813,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/index.html",
+			"settings":
+			{
+				"buffer_size": 3275,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "dist/index.html",
+			"settings":
+			{
+				"buffer_size": 3275,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/js/appController.js",
+			"settings":
+			{
+				"buffer_size": 5830,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/js/appDirectives.js",
+			"settings":
+			{
+				"buffer_size": 2949,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/js/appService.js",
+			"settings":
+			{
+				"buffer_size": 955,
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -588,10 +656,45 @@
 	},
 	"expanded_folders":
 	[
-		"/D/Development/front-end-puzzle"
+		"/D/Development/front-end-puzzle",
+		"/D/Development/front-end-puzzle/app",
+		"/D/Development/front-end-puzzle/app/assets",
+		"/D/Development/front-end-puzzle/app/js",
+		"/D/Development/front-end-puzzle/app/less",
+		"/D/Development/front-end-puzzle/dist",
+		"/D/Development/front-end-puzzle/dist/assets",
+		"/D/Development/front-end-puzzle/dist/assets/templates",
+		"/D/Development/front-end-puzzle/dist/css",
+		"/D/Development/front-end-puzzle/dist/js"
 	],
 	"file_history":
 	[
+		"/D/Development/front-end-puzzle/dist/js/bundle.js",
+		"/D/Development/front-end-puzzle/app/js/main.js",
+		"/D/Development/front-end-puzzle/app/js/appController.js",
+		"/D/Development/front-end-puzzle/app/js/appService.js",
+		"/D/Development/front-end-puzzle/app/assets/templates/organization.html",
+		"/D/Development/front-end-puzzle/app/assets/templates/workspaces.html",
+		"/D/Development/front-end-puzzle/app/js/appDirectives.js",
+		"/D/Development/front-end-puzzle/app/less/_bs-variables.less",
+		"/D/Development/front-end-puzzle/app/assets/templates/dataExplosion.json",
+		"/D/Development/front-end-puzzle/app/assets/templates/workspaceitem.html",
+		"/D/Development/front-end-puzzle/app/index.html",
+		"/D/Development/front-end-puzzle/app/less/style.less",
+		"/D/Development/front-end-puzzle/gulpfile.js",
+		"/D/Development/front-end-puzzle/package.json",
+		"/D/Development/front-end-puzzle/app/assets/templates/data.json",
+		"/D/Development/front-end-puzzle/node_modules/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.css",
+		"/D/Development/front-end-puzzle/dist/assets/templates/organization.html",
+		"/D/Development/front-end-puzzle/app/less/_bs-index.less",
+		"/D/Development/front-end-puzzle/app/assets/templates/orginization.html",
+		"/D/Development/front-end-puzzle/dist/assets/data.json",
+		"/D/Development/front-end-puzzle/app/js/directives/workspaces.js",
+		"/D/Development/front-end-puzzle/app/js/appMain.js",
+		"/D/Development/front-end-puzzle/app/less/_bs-mixins.less",
+		"/D/Development/front-end-puzzle/dist/css/style.css",
+		"/D/Development/front-end-puzzle/dist/index.html",
+		"/D/Development/front-end-puzzle/dist/less/style.less",
 		"/D/Development/heartwood/gulpfile.js",
 		"/D/Development/heartwood/wordpress/wp-content/themes/hwspring2016/loop.php",
 		"/D/Development/heartwood/wordpress/wp-content/themes/hwspring2016/js/src/main.js",
@@ -693,37 +796,11 @@
 		"/D/Development/heartwood/wordpress/wp-content/themes/hwspring2016/styles/src/heartwood-bootstrap/navs.less",
 		"/D/Development/heartwood/wordpress/wp-content/themes/hwspring2016/styles/src/heartwood-bootstrap/normalize.less",
 		"/D/Development/heartwood/wordpress/wp-content/themes/hwspring2016/styles/src/heartwood-bootstrap/pager.less",
-		"/D/Development/heartwood/wordpress/wp-content/themes/hwspring2016/styles/src/heartwood-bootstrap/pagination.less",
-		"/D/Development/heartwood/wordpress/wp-content/themes/hwspring2016/styles/src/heartwood-bootstrap/panels.less",
-		"/D/Development/heartwood/wordpress/wp-content/themes/hwspring2016/styles/src/heartwood-bootstrap/popovers.less",
-		"/D/Development/heartwood/wordpress/wp-content/themes/hwspring2016/styles/src/heartwood-bootstrap/print.less",
-		"/D/Development/heartwood/wordpress/wp-content/themes/hwspring2016/styles/src/heartwood-bootstrap/progress-bars.less",
-		"/D/Development/heartwood/wordpress/wp-content/themes/hwspring2016/styles/src/heartwood-bootstrap/responsive-embed.less",
-		"/D/Development/heartwood/wordpress/wp-content/themes/hwspring2016/styles/src/heartwood-bootstrap/responsive-utilities.less",
-		"/D/Development/heartwood/wordpress/wp-content/themes/hwspring2016/styles/src/heartwood-bootstrap/scaffolding.less",
-		"/D/Development/heartwood/wordpress/wp-content/themes/hwspring2016/styles/src/heartwood-bootstrap/tables.less",
-		"/D/Development/heartwood/wordpress/wp-content/themes/hwspring2016/styles/src/heartwood-bootstrap/theme.less",
-		"/D/Development/heartwood/wordpress/wp-content/themes/hwspring2016/styles/src/heartwood-bootstrap/thumbnails.less",
-		"/D/Development/heartwood/wordpress/wp-content/themes/hwspring2016/styles/src/heartwood-bootstrap/tooltip.less",
-		"/D/Development/heartwood/wordpress/wp-content/themes/hwspring2016/styles/src/heartwood-bootstrap/type.less",
-		"/D/Development/heartwood/wordpress/wp-content/themes/hwspring2016/styles/src/heartwood-bootstrap/utilities.less",
-		"/D/Development/heartwood/wordpress/wp-content/themes/hwspring2016/styles/src/heartwood-bootstrap/wells.less",
-		"/D/Development/heartwood/README.md",
-		"/D/Development/heartwood/wordpress/wp-content/themes/hwspring2016/mast.php",
-		"/D/Development/heartwood/wordpress/wp-content/themes/hwspring2016/author.php",
-		"/D/Development/heartwood/wordpress/wp-content/themes/hwspring2016/pagination.php",
-		"/D/Development/heartwood/wordpress/wp-content/themes/hwspring2016/styles/css/test.css",
-		"/D/Development/heartwood/wordpress/wp-content/themes/hwspring2016/languages/de_DE.mo",
-		"/D/Development/heartwood/wordpress/wp-content/themes/hwspring2016/languages/de_DE.po",
-		"/D/Development/heartwood/wordpress/wp-content/themes/hwspring2016/languages/es_CL.mo",
-		"/D/Development/heartwood/wordpress/wp-content/themes/hwspring2016/languages/es_CL.po",
-		"/D/Development/heartwood/wordpress/wp-content/themes/hwspring2016/languages/es_ES.mo",
-		"/D/Development/heartwood/wordpress/wp-content/themes/hwspring2016/languages/es_ES.po",
-		"/D/Development/heartwood/wordpress/wp-content/themes/hwspring2016/languages/fr_FR.mo"
+		"/D/Development/heartwood/wordpress/wp-content/themes/hwspring2016/styles/src/heartwood-bootstrap/pagination.less"
 	],
 	"find":
 	{
-		"height": 27.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
@@ -742,6 +819,24 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"icon",
+			"top: 4",
+			"podio",
+			"findVisibleWorkspaces",
+			"filterFilter",
+			"filterText",
+			"findVisibleWorkspaces",
+			"filter",
+			"triggerSearch",
+			"\"",
+			"ugly",
+			" //",
+			"// //",
+			"@import \"",
+			"buffer",
+			"gulp.d",
+			"/',\n",
+			"dest",
 			"border",
 			"img",
 			"ajax-loader",
@@ -851,25 +946,7 @@
 			"create_post",
 			"add_fil",
 			"create_post_type_heartwood",
-			"demo",
-			"gutter",
-			"fixed",
-			"max-w",
-			"make-",
-			"@max-width",
-			"make-md",
-			"margin",
-			"row-",
-			"@import \"",
-			"grey",
-			"row",
-			"mixins",
-			"scroll",
-			"heartwood_nav",
-			"header-navigation",
-			"nav-height",
-			"header-menu",
-			"register_heartwood_menu"
+			"demo"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -877,6 +954,10 @@
 		"regex": false,
 		"replace_history":
 		[
+			"//",
+			" //",
+			"@import \"../../node_modules/bootstrap-less/bootstrap/",
+			"dist",
 			"post-",
 			"paths.",
 			"hw_cal",
@@ -921,8 +1002,210 @@
 	"groups":
 	[
 		{
+			"selected": 4,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "app/less/style.less",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4715,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4532,
+								4532
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 4166.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "README.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 813,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								377,
+								377
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3275,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2827,
+								2840
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 969.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "dist/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3275,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 285.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "app/js/appController.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5830,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								447,
+								447
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 114.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "app/js/appDirectives.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2949,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2848,
+								2848
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 570.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "app/js/appService.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 955,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								590,
+								590
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -969,7 +1252,7 @@
 	"project": "front-end-puzzle.sublime-project",
 	"replace":
 	{
-		"height": 50.0
+		"height": 64.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -1007,7 +1290,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 288.0,
+	"side_bar_width": 220.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

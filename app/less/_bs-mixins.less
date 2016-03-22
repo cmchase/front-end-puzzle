@@ -2,7 +2,16 @@
 	background-color: @color;	
 	border-bottom: 1px solid @color-blue-darker;
 	height: @mast-height;
+	width: 100%;
+	.handheld({
+		clear: both;
+		float: left;
+		height: auto;
+	});
 }
 .aside-transition(){
 	transition: left .25s;
+}
+.handheld(@rules) {
+  @media screen and (max-width: 768px) { @rules(); }
 }

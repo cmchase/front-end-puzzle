@@ -8,6 +8,7 @@
 }
 body {
 	background-color: @color-gray-light;
+	cursor: pointer;
 }
 .main-container {
 	position: relative;
@@ -29,6 +30,13 @@ body {
 		color: @color-gray;
 		float: left;
 		width: @workspace-width;
+		.handheld({
+			clear: both;
+			float: left;
+			display: block;
+			margin-top: @mast-height;
+			width: 100%;
+		});
 		a {
 			color: @color-gray;
 			display: block;
@@ -42,6 +50,11 @@ body {
 		float: left;
 		height: @mast-height;
 		width: auto;
+		.handheld({
+			clear: both;
+			margin-top: -@mast-height*2;
+			width: 100%;
+		});
 		.logo-link {
 			float: left;
 			margin: 0 20px;
@@ -62,10 +75,13 @@ body {
 				padding: 0 10px;
 				a {
 					color: @color-blue-darkest;
-					padding: 0 20px;
+					padding: 0 10px;
 					&:hover {
 						color: @color-gray-light;
 					}
+					.handheld({
+						padding: 0 5px;	
+					})
 				}
 			}
 		}		
@@ -74,12 +90,15 @@ body {
 .main-content {
 	background-color: #fff;
 	border: 1px solid @color-gray;
-	margin: 20px;
+	float: left;
+	margin: 20px 1%;
+	width: 98%;
 	.notes {
-		margin-left: @workspace-width;
+		margin: 0 auto;
 		padding: 10px 10px 100px;
 		position: relative;
-		width: 600px;		
+		max-width: 600px;		
+		width: 100%;
 		h3:not(:first-child) {
 			margin-top: 50px;
 		}
@@ -96,6 +115,12 @@ body {
 			border-radius: 4px;
 			line-height: 30px;
 			border: 1px solid @color-blue-darkest;
+			.handheld({
+				top: 5px;
+				line-height: 20px;
+				font-size: 12px;
+				right: 5px;
+			});
 			&:hover {
 				background: @color-blue-darkest;
 			}
@@ -113,6 +138,9 @@ body {
 	top: 0;
 	width: @workspace-width;
 	z-index: 5;
+	.handheld({
+		width: 90%;
+	});
 	.aside-transition();
 	.highlighted {
 		background-color: yellow;
@@ -138,7 +166,10 @@ body {
 			line-height: @mast-height;
 			outline: none;
 			padding: 0 10px;
-			width: @workspace-width - 60;
+			width: @workspace-width - 60;			
+			.handheld({
+				width: 80%;
+			});
 		}
 	}
 	&.visible {
@@ -146,16 +177,17 @@ body {
 		.aside-transition()
 	}
 	.workspace-results {
+		float: left;
 		overflow-y: auto;
 		position: relative;
 		min-height: 300px;
 		.no-orgs {
 			background: url('../assets/img/frown.png') center no-repeat;
-			bottom: 0;
-			left: 0; 
-			position: absolute;
-			right: 0; 
-			top: 0;
+			height: 300px;
+			margin: 0 auto;
+			text-align: center;
+			width: 400px;
+			.handheld({ width: 300px; });
 			.message {
 				color: darken(@color-gray, 10%);
 				font-size: 1.25em;
