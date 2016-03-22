@@ -523,7 +523,7 @@
 			"file": "app/less/style.less",
 			"settings":
 			{
-				"buffer_size": 5234,
+				"buffer_size": 5249,
 				"line_ending": "Windows"
 			}
 		},
@@ -1019,15 +1019,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5234,
+						"buffer_size": 5249,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								273,
-								273
+								2404,
+								2404
 							]
 						],
 						"settings":
@@ -1035,8 +1035,8 @@
 							"syntax": "Packages/LESS/LESS.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.x": -0.0,
+						"translation.y": 1581.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -1061,7 +1061,8 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/LESS/LESS.tmLanguage"
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,

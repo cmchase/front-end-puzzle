@@ -8,7 +8,11 @@
 }
 body {
 	background-color: @color-gray-light;
-	cursor: pointer;
+	// This allows click events to bubble correctly
+	// on touch screens
+	.handheld({
+		cursor: pointer;
+	});
 }
 .main-container {
 	position: relative;
@@ -182,6 +186,7 @@ body {
 		overflow-y: auto;
 		position: relative;
 		min-height: 300px;
+		width: 100%;
 		.no-orgs {
 			background: url('../assets/img/frown.png') center no-repeat;
 			height: 300px;
